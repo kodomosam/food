@@ -1,0 +1,80 @@
+ERROR - 2025-04-13 14:02:04 --> mysqli_sql_exception: Table 'testeci4.usuario' doesn't exist in C:\xampp\htdocs\food\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\food\system\Database\MySQLi\Connection.php(327): mysqli->query('ALTER TABLE `us...', 0)
+#1 C:\xampp\htdocs\food\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('ALTER TABLE `us...')
+#2 C:\xampp\htdocs\food\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('ALTER TABLE `us...')
+#3 C:\xampp\htdocs\food\system\Database\Forge.php(772): CodeIgniter\Database\BaseConnection->query('ALTER TABLE `us...')
+#4 C:\xampp\htdocs\food\app\Database\Migrations\2025-04-13-031604_AdicionaColunaAtivoParaUsuarios.php(20): CodeIgniter\Database\Forge->addColumn('usuario', Array)
+#5 C:\xampp\htdocs\food\system\Database\MigrationRunner.php(866): App\Database\Migrations\AdicionaColunaAtivoParaUsuarios->up()
+#6 C:\xampp\htdocs\food\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\food\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\food\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\food\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\food\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\food\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\food\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-04-13 14:03:49 --> mysqli_sql_exception: Table 'testeci4.usuario' doesn't exist in C:\xampp\htdocs\food\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\food\system\Database\MySQLi\Connection.php(327): mysqli->query('ALTER TABLE `us...', 0)
+#1 C:\xampp\htdocs\food\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('ALTER TABLE `us...')
+#2 C:\xampp\htdocs\food\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('ALTER TABLE `us...')
+#3 C:\xampp\htdocs\food\system\Database\Forge.php(772): CodeIgniter\Database\BaseConnection->query('ALTER TABLE `us...')
+#4 C:\xampp\htdocs\food\app\Database\Migrations\2025-04-13-031604_AdicionaColunaAtivoParaUsuarios.php(20): CodeIgniter\Database\Forge->addColumn('usuario', Array)
+#5 C:\xampp\htdocs\food\system\Database\MigrationRunner.php(866): App\Database\Migrations\AdicionaColunaAtivoParaUsuarios->up()
+#6 C:\xampp\htdocs\food\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\food\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\food\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\food\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\food\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\food\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\food\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-04-13 14:12:38 --> mysqli_sql_exception: Table 'testeci4.usuario' doesn't exist in C:\xampp\htdocs\food\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\food\system\Database\MySQLi\Connection.php(327): mysqli->query('ALTER TABLE `us...', 0)
+#1 C:\xampp\htdocs\food\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('ALTER TABLE `us...')
+#2 C:\xampp\htdocs\food\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('ALTER TABLE `us...')
+#3 C:\xampp\htdocs\food\system\Database\Forge.php(772): CodeIgniter\Database\BaseConnection->query('ALTER TABLE `us...')
+#4 C:\xampp\htdocs\food\app\Database\Migrations\2025-04-13-031604_AdicionaColunaAtivoParaUsuarios.php(20): CodeIgniter\Database\Forge->addColumn('usuario', Array)
+#5 C:\xampp\htdocs\food\system\Database\MigrationRunner.php(866): App\Database\Migrations\AdicionaColunaAtivoParaUsuarios->up()
+#6 C:\xampp\htdocs\food\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\food\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\food\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\food\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\food\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\food\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\food\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-04-13 14:16:34 --> mysqli_sql_exception: Table 'testeci4.usuario' doesn't exist in C:\xampp\htdocs\food\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\food\system\Database\MySQLi\Connection.php(327): mysqli->query('ALTER TABLE `us...', 0)
+#1 C:\xampp\htdocs\food\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('ALTER TABLE `us...')
+#2 C:\xampp\htdocs\food\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('ALTER TABLE `us...')
+#3 C:\xampp\htdocs\food\system\Database\Forge.php(772): CodeIgniter\Database\BaseConnection->query('ALTER TABLE `us...')
+#4 C:\xampp\htdocs\food\app\Database\Migrations\2025-04-13-031604_AdicionaColunaAtivoParaUsuarios.php(20): CodeIgniter\Database\Forge->addColumn('usuario', Array)
+#5 C:\xampp\htdocs\food\system\Database\MigrationRunner.php(866): App\Database\Migrations\AdicionaColunaAtivoParaUsuarios->up()
+#6 C:\xampp\htdocs\food\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\food\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\food\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\food\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\food\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\food\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\food\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-04-13 14:35:05 --> mysqli_sql_exception: Unknown table 'testeci4.usuarios' in C:\xampp\htdocs\food\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\food\system\Database\MySQLi\Connection.php(327): mysqli->query('DROP TABLE `usu...', 0)
+#1 C:\xampp\htdocs\food\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('DROP TABLE `usu...')
+#2 C:\xampp\htdocs\food\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('DROP TABLE `usu...')
+#3 C:\xampp\htdocs\food\system\Database\Forge.php(663): CodeIgniter\Database\BaseConnection->query('DROP TABLE `usu...')
+#4 C:\xampp\htdocs\food\app\Database\Migrations\2025-04-12-220412_CriaTabelaUsuarios.php(40): CodeIgniter\Database\Forge->dropTable('usuarios')
+#5 C:\xampp\htdocs\food\system\Database\MigrationRunner.php(866): App\Database\Migrations\CriaTabelaUsuarios->down()
+#6 C:\xampp\htdocs\food\system\Database\MigrationRunner.php(289): CodeIgniter\Database\MigrationRunner->migrate('down', Object(stdClass))
+#7 C:\xampp\htdocs\food\system\Commands\Database\MigrateRollback.php(101): CodeIgniter\Database\MigrationRunner->regress(0)
+#8 C:\xampp\htdocs\food\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#9 C:\xampp\htdocs\food\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#10 C:\xampp\htdocs\food\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\food\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\food\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
