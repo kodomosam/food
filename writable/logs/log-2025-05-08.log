@@ -1,0 +1,146 @@
+DEBUG - 2025-05-08 18:32:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-08 18:32:29 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 64
+[Method: GET, Route: admin/usuarios/editar/images/logo.svg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 116.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(64): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->editar('images', 'logo.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+CRITICAL - 2025-05-08 18:32:30 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 64
+[Method: GET, Route: admin/usuarios/editar/images/logo-mini.svg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 116.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(64): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->editar('images', 'logo-mini.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+CRITICAL - 2025-05-08 18:32:30 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 64
+[Method: GET, Route: admin/usuarios/editar/images/faces/face4.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 116.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(64): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+CRITICAL - 2025-05-08 18:32:30 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 64
+[Method: GET, Route: admin/usuarios/editar/images/faces/face2.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 116.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(64): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+CRITICAL - 2025-05-08 18:32:30 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 64
+[Method: GET, Route: admin/usuarios/editar/images/faces/face3.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 116.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(64): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+CRITICAL - 2025-05-08 18:32:31 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 64
+[Method: GET, Route: admin/usuarios/editar/images/faces/face5.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 116.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(64): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2025-05-08 18:32:37 --> CSRF token verified.
+ERROR - 2025-05-08 18:32:38 --> mysqli_sql_exception: Unknown column 'password' in 'field list' in C:\xampp\htdocs\food\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\food\system\Database\MySQLi\Connection.php(327): mysqli->query('UPDATE `usuario...', 0)
+#1 C:\xampp\htdocs\food\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `usuario...')
+#2 C:\xampp\htdocs\food\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `usuario...')
+#3 C:\xampp\htdocs\food\system\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `usuario...', Array, false)
+#4 C:\xampp\htdocs\food\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\food\system\BaseModel.php(1027): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\food\system\Model.php(863): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\food\system\BaseModel.php(748): CodeIgniter\Model->update('2', Object(App\Entities\Usuario))
+#8 C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php(94): CodeIgniter\BaseModel->save(Object(App\Entities\Usuario))
+#9 C:\xampp\htdocs\food\system\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->atualizar('2')
+#10 C:\xampp\htdocs\food\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#11 C:\xampp\htdocs\food\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\food\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\food\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\food\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp\htdocs\food\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+CRITICAL - 2025-05-08 18:32:38 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'password' in 'field list'
+[Method: POST, Route: admin/usuarios/atualizar/2]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `usuarios` SET `cpf` = :cpf:, `telefone` = :telefone:, `password` = :password:, `password_confirmation` = :password_confirmation:, `updated_at` = :updated_at:
+WHERE `usuarios`.`id` IN :usuarios.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(1027): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(863): CodeIgniter\BaseModel->update([...], [...])
+ 5 SYSTEMPATH\BaseModel.php(748): CodeIgniter\Model->update('2', Object(App\Entities\Usuario))
+ 6 APPPATH\Controllers\Admin\Usuarios.php(94): CodeIgniter\BaseModel->save(Object(App\Entities\Usuario))
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->atualizar('2')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+CRITICAL - 2025-05-08 18:32:38 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'password' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `usuarios` SET `cpf` = \'382.230.768-88\', `telefone` = \'(11) 95149-9090\', `password` = \'\', `password_confirmation` = \'\', `updated_at` = \'2025-05-08 18:32:38\'
+WHERE `usuarios`.`id` IN (\'2\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `usuarios` SET `cpf` = \'382.230.768-88\', `telefone` = \'(11) 95149-9090\', `password` = \'\', `password_confirmation` = \'\', `updated_at` = \'2025-05-08 18:32:38\'
+WHERE `usuarios`.`id` IN (\'2\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `usuarios` SET `cpf` = :cpf:, `telefone` = :telefone:, `password` = :password:, `password_confirmation` = :password_confirmation:, `updated_at` = :updated_at:
+WHERE `usuarios`.`id` IN :usuarios.id:', [...], false)
+ 4 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(1027): CodeIgniter\Model->doUpdate([...], [...])
+ 6 SYSTEMPATH\Model.php(863): CodeIgniter\BaseModel->update([...], [...])
+ 7 SYSTEMPATH\BaseModel.php(748): CodeIgniter\Model->update('2', Object(App\Entities\Usuario))
+ 8 APPPATH\Controllers\Admin\Usuarios.php(94): CodeIgniter\BaseModel->save(Object(App\Entities\Usuario))
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->atualizar('2')
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+CRITICAL - 2025-05-08 18:32:38 --> [Caused by] mysqli_sql_exception: Unknown column 'password' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('UPDATE `usuarios` SET `cpf` = \'382.230.768-88\', `telefone` = \'(11) 95149-9090\', `password` = \'\', `password_confirmation` = \'\', `updated_at` = \'2025-05-08 18:32:38\'
+WHERE `usuarios`.`id` IN (\'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `usuarios` SET `cpf` = \'382.230.768-88\', `telefone` = \'(11) 95149-9090\', `password` = \'\', `password_confirmation` = \'\', `updated_at` = \'2025-05-08 18:32:38\'
+WHERE `usuarios`.`id` IN (\'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `usuarios` SET `cpf` = \'382.230.768-88\', `telefone` = \'(11) 95149-9090\', `password` = \'\', `password_confirmation` = \'\', `updated_at` = \'2025-05-08 18:32:38\'
+WHERE `usuarios`.`id` IN (\'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `usuarios` SET `cpf` = :cpf:, `telefone` = :telefone:, `password` = :password:, `password_confirmation` = :password_confirmation:, `updated_at` = :updated_at:
+WHERE `usuarios`.`id` IN :usuarios.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(1027): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(863): CodeIgniter\BaseModel->update([...], [...])
+ 8 SYSTEMPATH\BaseModel.php(748): CodeIgniter\Model->update('2', Object(App\Entities\Usuario))
+ 9 APPPATH\Controllers\Admin\Usuarios.php(94): CodeIgniter\BaseModel->save(Object(App\Entities\Usuario))
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->atualizar('2')
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
